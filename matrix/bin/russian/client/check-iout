@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Basic bash Shell Commands
+# IN THIS CHAPTER
+# Interacting with the shell
+# Using the bash manual
+# Traversing the filesystem
+# Listing files and directories
+# Managing files and directories
+# Viewing file contents
+# T
+# he default shell used in many Linux distributions is the GNU bash shell. This chapter describes
+# the basic features available in the bash shell, such as the bash manual, tab auto-completion
+# and how to display a file’s contents. You will walk through how to work with Linux files and
+# directories using the basic commands provided by the bash shell. If you’re already comfortable with
+# the basics in the Linux environment, feel free to skip this chapter and continue with Chapter 4 to
+# see more advanced commands.
+Imp=/input/
+Out=/output/
+for flyingOut in 1 2 3 4 5; do
+    echo "The default shell used in many $flying $Imp and $Out"
+done
+
+    

@@ -1,0 +1,32 @@
+#!/bin/sh
+# Using the Shell Prompt
+# After you start a terminal emulation package or log in to a Linux virtual console, you get
+# access to the shell CLI prompt. The prompt is your gateway to the shell. This is the place
+# where you enter shell commands.
+Shell=/bash/
+CLI=/sh/
+Gateway=/bash/
+
+if [ [ $Shell ] ]
+then
+       echo "start $Shell a terminal emulation package"
+else
+     caller $shell
+fi
+if [[ $CLI ]]
+then
+for i in 1 2 3; do
+    echo i++
+done
+else
+   echo i++
+fi   
+if [[ $Gateway ]]
+then
+for r in 1 2 3; do
+    echo r++
+done
+else
+    echo r++
+fi
+                         

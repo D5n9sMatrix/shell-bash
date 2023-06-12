@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# flying output
+dialog --begin 0 1
+exit 0
+

@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/denis/Projects/shell-bash/matrix/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/shell-bash.dir/shell-bash.cpp.o -c /home/denis/Projects/shell-bash/matrix/shell-bash.cpp",
+  "file": "/home/denis/Projects/shell-bash/matrix/shell-bash.cpp"
+}
+]

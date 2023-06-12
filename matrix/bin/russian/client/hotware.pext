@@ -1,0 +1,14 @@
+#!/bin/bash
+# Besides acting as your access point to the shell, the prompt can provide additional help-
+# ful information. In the two preceding examples, the current user ID name, christine, is
+# shown in the prompt. Also, the name of the system is shown, server01. You learn later in
+# this chapter about additional items shown in the prompt.
+ID=/name/
+server01=/bash/
+dialog --begin 0 1
+command -p bash
+for r in 11 12 13; 21, 22, 23; 31, 32, 33; do
+    dialog --default-item "key value"
+    echo $r++
+done
+    

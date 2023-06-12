@@ -1,0 +1,8 @@
+#!/bin/bash
+# f you are new to the CLI, keep in mind that, after you type in a shell command at the prompt, you need to press the
+# Enter key for the shell to act upon your command
+CLI=/allow/
+
+for safemind in mind; do
+    echo $safemind++
+done    
